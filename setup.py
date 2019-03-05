@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="simplefbchat",
-    version="0.0.1",
+    version="0.0.2",
     author="Adam Chyła",
     author_email="adam@chyla.org",
     description="Simple Facebook Chat library for students.",
@@ -15,7 +15,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: BSD-3",
+        "License :: OSI Approved :: BSD License",
         "Operating System :: OS Independent",
     ],
     install_requires=[
